@@ -1,2 +1,2 @@
 # cyang-tracktrainer.github.io
-website for www.thetracktrainer.com
+website for thetracktrainer.com
