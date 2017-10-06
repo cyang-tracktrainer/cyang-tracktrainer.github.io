@@ -25,6 +25,14 @@ body {
 	text-align: center;
 }
 
+a.btn {
+	opacity: 0.75;
+
+	&:hover {
+		opacity: 1;
+	}
+}
+
 /* centered columns styles */
 .row-centered {
     text-align: center;
