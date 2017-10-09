@@ -175,8 +175,10 @@ h3 {
 ================================================= */
 .navbar {
 	text-align: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
 	height: 75px;
+	border-bottom: 2px solid #dfdfdf;
+	opacity: 0.97;
 }
 
 .navbar-brand {
@@ -192,16 +194,17 @@ h3 {
 }
 
 .navbar-right li > a {
+	background-color: rgba(255, 255, 255, 0) !important;
 	color: var(--color5);
 	font-size: 16px;
-	line-height: 75px;
+	line-height: 73px;
 	padding: 0 15px;
+	border-bottom: 2px solid #dfdfdf;
 }
 
 .nav.navbar-nav > li > a:hover {
 	color: var(--color7);
 	font-size: 16px;
-	background-color: white;
 }
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
@@ -234,31 +237,31 @@ h3 {
 ================================================= */
 
 .footer-container {
+	border-top: 2px solid #dfdfdf;
 	padding: 50px 0;
 	font-size: 18px;
 	text-align: center;
-	color: white;
+	color: var(--color6);
 }
 
 .footer-button {
-	color: white;
-	border-bottom: 1px solid white;
+	color: var(--color6);
 }
 
 .footer-button:hover {
-	color: var(--color1);
+	color: var(--color7);
 	text-decoration: none;
-	border-bottom: 1px solid var(--color1);
+	border-bottom: 1px solid var(--color7);
 }
 
 .footer-info-container {
 	padding-top: 30px;
 	font-size: 13px;
-	color: white;
+	color: var(--color6);
 }
 
 .footer-info-container a {
-	color: white;
+	color: var(--color6);
 	text-decoration: none;
 }
 
