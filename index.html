@@ -15,7 +15,7 @@
     <script>window.jQuery || document.write('<script src="bootstrap-3.3.7/docs/assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:300|Roboto+Condensed:300|PT+Sans:300|Open+Sans:300|Source+Sans+Pro:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300|Roboto+Condensed:300|PT+Sans:300|Open+Sans:300|Source+Sans+Pro:300|Audiowide|Nova+Mono|Nova+Flat|Baumans" rel="stylesheet">
     <script language="javascript" type="text/javascript" src="js/animation.js"></script>
     <link href="css/mystyle.min.css" rel="stylesheet">
     <link href="css/index.min.css" rel="stylesheet">
@@ -24,13 +24,24 @@
 
 	<!-- NAVBAR
 ================================================== -->
-    <div class="navbar-wrapper">
+    <div class="navbar">
+      <a class="nav-logo" href="#">Track Trainer</a>
+      <div class="nav-left">
+        <a class="nav-link link" href="#">Home</a>
+        <a class="nav-link link" href="team.html">Our Team</a>
+      </div>
+      <div class="nav-right">
+        <a class="nav-link link" href="product.html">For Patients</a>
+        <a class="nav-link link" href="product.html">For Therapists</a>
+      </div>
+    </div>
+    <!-- <div class="navbar-wrapper">
       <div class="container-fluid">
         <nav class="navbar navbar-fixed-top">
           <div class="container-fluid">
-            <div class="navbar-header">
+            <div class="navbar-header"> -->
 		          <!-- responsive hamburger button -->
-		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		          <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 		            <span class="sr-only">Toggle navigation</span>
 		            <span class="icon-bar bg-color5"></span>
 		            <span class="icon-bar bg-color5"></span>
@@ -49,13 +60,16 @@
         	</div>
       	</nav>
 	    </div>
-	  </div>
+	  </div> -->
 
 	  <!-- COVER BLOCK
 ================================================== -->
 		<div class="cover-container bg-transp white">
+      <!-- not really take charge, more like enjoy -->
       <h1>Take charge of your recovery.</h1>
-      <a href="product.html" class="btn btn-lg btn-product bg-transp white">Learn more about the Track Trainer</a>
+      <p>Rehabilitation can be laborious and frustrating. Our mission is to
+        make it fun<br>and exciting, so that you can enjoy the path to your recuperation.</p>
+      <a href="product.html" class="btn btn-lg btn-product link bg-transp white">OUR STORY ></a>
 		</div>
 
     <!-- DISPLAY BLOCK
@@ -67,9 +81,21 @@
         <img class="tt-isometric" src="img/product/tt-isometric.png" alt="tt-isometric">
         <div class="display-info">
           <ul>
-            <li class="blurb">Stroke recovery as simple as playing a game.</li>
-            <li class="blurb">No more endless repetition of mind-numbing tasks.<br>No more frustration with confusing techniques.<br>And no more breaking the bank.</li>
-            <li class="blurb">The Track Trainer packages the effective Task Specific Training methodology into a game-like device that keeps rehabilitation motivational and exciting.</li>
+            <li class="blurb">
+              <p>
+                Stroke recovery as simple as playing a game.
+              </p>
+            </li>
+            <li class="blurb">
+              <p>
+                No more endless repetition of mind-numbing tasks.<br>No more frustration with confusing techniques.<br>And no more breaking the bank.
+              </p>
+            </li>
+            <li class="blurb">
+              <p>
+                The Track Trainer packages the effective Task Specific Training methodology into a game-like device that keeps rehabilitation motivational and exciting.
+              </p>
+            </li>
           </ul>
         </div>
       </div>
@@ -104,11 +130,12 @@
 
 		<!-- BLOG BLOCK
 ================================================== -->
-    <div class="blog-container bg-white color6">
+    <!-- uncomment when medium blog exists -->
+    <!-- <div class="blog-container bg-white color6">
       <h1>Follow our Medium blog!</h1>
       <h2><br>We’re excited to continually evolve our product and provide<br>the best possible experience to our patients. Stay in the loop and<br>see what we're up to!</h2>
-      <a href="https://medium.com/@thetracktrainer" class="btn btn-lg btn-blog bg-white color5">Keep Up with Our Progress&nbsp&nbsp:)</a>
-		</div>
+      <a href="https://medium.com/@thetracktrainer" class="btn btn-lg btn-blog link bg-white color5">Keep Up with Our Progress&nbsp&nbsp:)</a>
+		</div> -->
 
     <!-- FOOTER BLOCK
 ================================================== -->
