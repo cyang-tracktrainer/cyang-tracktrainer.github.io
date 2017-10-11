@@ -2,20 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="description" content="Website for the Track Trainer, a physical rehabilitation device for recovering stroke patients looking to regain mobility in their arms.">
     <meta name="author" content="Christopher Yang">
 
-    <title>Home | Track Trainer</title>
+    <title>Product | Track Trainer</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="bootstrap-3.3.7/docs/assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:300|Roboto+Condensed:300|PT+Sans:300|Open+Sans:300|Source+Sans+Pro:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300|Roboto+Condensed:300|PT+Sans:300|Open+Sans:300|Source+Sans+Pro:300|Audiowide|Nova+Mono|Nova+Flat|Baumans" rel="stylesheet">
+    <script language="javascript" type="text/javascript" src="js/animation.js"></script>
     <link href="css/mystyle.min.css" rel="stylesheet">
     <link href="css/product.min.css" rel="stylesheet">
   </head>
@@ -23,25 +24,36 @@
 
 	<!-- NAVBAR
 ================================================== -->
+    <div class="navbar">
+      <a class="nav-logo" href="index.html">Track Trainer</a>
+      <div class="nav-left">
+        <a class="nav-link link" href="index.html">Home</a>
+        <a class="nav-link link" href="team.html">Our Team</a>
+      </div>
+      <div class="nav-right">
+        <a class="nav-link link" href="#">For Patients</a>
+        <a class="nav-link link" href="#">For Therapists</a>
+      </div>
+    </div>
     <!-- <div class="navbar-wrapper">
       <div class="container-fluid">
-        <nav class="navbar navbar-light navbar-fixed-top">
+        <nav class="navbar navbar-fixed-top">
           <div class="container-fluid">
             <div class="navbar-header"> -->
 		          <!-- responsive hamburger button -->
 		          <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 		            <span class="sr-only">Toggle navigation</span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
+		            <span class="icon-bar bg-color5"></span>
+		            <span class="icon-bar bg-color5"></span>
+		            <span class="icon-bar bg-color5"></span>
 		          </button>
-		          <a class="navbar-brand" href="index.html">
+		          <a class="navbar-brand" href="#">
 		            Track Trainer
 		          </a>
 		        </div>
-		        <div id="navbar" class="navbar-right navbar-collapse collapse">
+		        <div id="navbar" class="navbar-right bg-white navbar-collapse collapse">
 		          <ul class="nav navbar-nav">
-		            <li><a href="#">Product</a></li>
+		            <li><a href="product.html">Product</a></li>
 		            <li><a href="team.html">Team</a></li>
 		          </ul>
         		</div>
@@ -50,7 +62,7 @@
 	    </div>
 	  </div> -->
 
-    <iframe src="https://www.youtube.com/embed/iuia9D8-FS4" frameborder="0" allowfullscreen></iframe>
+    <!-- <iframe src="https://www.youtube.com/embed/iuia9D8-FS4" frameborder="0" allowfullscreen></iframe> -->
 
 	  <!-- DISPLAY BLOCK
 ================================================== -->
@@ -86,21 +98,21 @@
           <p>Reach a gate</p>
         </div>
         <div class="col-sm-1 col-centered infographic-item">
-          <img class="arrow" src="img/product/arrow-right-teal.png" alt="arrow">
+          <img class="arrow" src="img/product/arrow-right.png" alt="arrow">
         </div>
         <div class="col-sm-2 col-centered infographic-item">
           <img src="img/product/lightbulb.png" alt="lightbulb">
           <p>Complete the lit-up task</p>
         </div>
         <div class="col-sm-1 col-centered infographic-item">
-          <img class="arrow" src="img/product/arrow-right-teal.png" alt="arrow">
+          <img class="arrow" src="img/product/arrow-right.png" alt="arrow">
         </div>
         <div class="col-sm-2 col-centered infographic-item">
           <img src="img/product/checkmark.png" alt="checkmark">
           <p>Repeat for 4 more gates</p>
         </div>
         <div class="col-sm-1 col-centered infographic-item">
-          <img class="arrow" src="img/product/arrow-right-teal.png" alt="arrow">
+          <img class="arrow" src="img/product/arrow-right.png" alt="arrow">
         </div>
         <div class="col-sm-2 col-centered infographic-item">
           <img src="img/product/stopwatch.png" alt="stopwatch">
@@ -112,29 +124,23 @@
 
     <!-- FOOTER BLOCK
 ================================================== -->
-    <footer class="footer-container bg-color1">
+    <footer class="footer-container">
   		<div class="row">
-  			<!-- left spacer -->
-  			<div class="col-xs-2"> </div>
-
-				<div class="col-xs-2">
-					<a class="footer-button" href="index.html">Home</a>
+				<div class="col-xs-offset-2 col-xs-2">
+					<a class="btn-footer link" href="#">Home</a>
 				</div>
   			<div class="col-xs-2">
-  				<a class="footer-button" href="#">Product</a>
+  				<a class="btn-footer link" href="product.html">Product</a>
   			</div>
   			<div class="col-xs-2">
-  				<a class="footer-button" href="team.html">Team</a>
+  				<a class="btn-footer link" href="team.html">Team</a>
   			</div>
   			<div class="col-xs-2">
-					<a class="footer-button" href="https://medium.com/@thetracktrainer">Medium</a>
+					<a class="btn-footer link" href="https://medium.com/@thetracktrainer">Medium</a>
   			</div>
-
-  			<!-- right spacer -->
-  			<div class="col-xs-2"> </div>
   		</div>
 
-			<div class="row">
+			<!-- <div class="row">
 				<div class="footer-info-container">
 					<div class="col-md-6 footer-info-left">
   					<p>
@@ -148,7 +154,7 @@
 	          <a class="contact-info"href="mailto:tracktrainer@gmail.com">TRACKTRAINER@GMAIL.COM</a>
   				</div>
         </div>
-      </div>
+      </div> -->
 
     </footer>
   </body>
