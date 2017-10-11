@@ -1,6 +1,7 @@
 @import 'typography';
-@import 'navbar';
 @import 'colors';
+@import 'navbar';
+@import 'footer';
 
 /* CREDIT FOR VECTORS
 ================================================= */
@@ -41,54 +42,6 @@ a.btn {
 .vertical-align {
   display: flex;
   align-items: center;
-}
-
-/* FOOTER BLOCK
-================================================= */
-
-.footer-container {
-	border-top: 2px solid #dfdfdf;
-	padding: 50px 0;
-	font-size: 18px;
-	text-align: center;
-	color: var(--color6);
-}
-
-.footer-button {
-	color: var(--color6);
-}
-
-.footer-button:hover {
-	color: var(--color7);
-	text-decoration: none;
-	border-bottom: 1px solid var(--color7);
-}
-
-.footer-info-container {
-	padding-top: 30px;
-	font-size: 13px;
-	color: var(--color6);
-}
-
-.footer-info-container a {
-	color: var(--color6);
-	text-decoration: none;
-}
-
-.contact-info {
-	color: white;
-	text-decoration: none;
-}
-
-.footer-info-left {
-	text-align: right;
-	padding: 0;
-	margin: 0;
-}
-
-.footer-info-right {
-	text-align: left;
-	padding-left: 40px;
 }
 
 /* RESPONSIVE SIZING
