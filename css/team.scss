@@ -1,22 +1,32 @@
-/*~~~~TEAM PAGE BLOCKS~~~~*/
-
 /* TEAM BLOCK
 ================================================= */
-.team-backdrop {
-	background-image: url("../img/team/team.png");
-  background-position: center;
-  background-size: 100vw auto;
-  background-repeat: no-repeat;
-}
+
+// .team-backdrop {
+// 	height: 540px;
+// 	margin: 0;
+//   padding-top: 75px; // height of navbar
+// 	background-image: url("../img/team/team.png");
+//   background-position: center;
+//   background-size: auto 950px;
+//   background-repeat: no-repeat;
+// }
 
 .team-container {
-  height: 500px;
-  padding: 120px 20px;
-  margin-top: 50px;
+	height: 540px;
+	margin: 0;
+  padding-top: 75px; // height of navbar
+	background-image: url("../img/team/team.png");
+  background-position: center;
+  background-size: auto 950px;
+  background-repeat: no-repeat;
+
+	h1 {
+		margin: 90px 0 30px 0;
+    color: white;
+	}
 
 	.team-subcontainer {
-		padding: 40px;
-		text-align: left;
+		padding: 0 40px;
 
 		.team-info-left {
 			padding-left: 120px;
@@ -30,6 +40,7 @@
 	}
 
 	p {
+		text-align: left;
 		font-size: 20px;
 	}
 }

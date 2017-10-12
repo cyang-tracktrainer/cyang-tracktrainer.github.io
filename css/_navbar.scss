@@ -12,6 +12,10 @@
 	background-color: transparent; // change to transparent white on scroll
 	color: white; // change to var(--color0) on scroll
   z-index: 1000;
+
+	&.product-navbar {
+		color: var(--color0);
+	}
 }
 
 .nav-right {
@@ -19,13 +23,12 @@
 }
 
 .nav-left {
-	float: left;
+	float: right;
 }
 
 .nav-logo {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
+  float: left;
+	margin-left: 40px;
   font-size: 32px;
   font-family: 'Baumans', sans-serif;
 	color: inherit;

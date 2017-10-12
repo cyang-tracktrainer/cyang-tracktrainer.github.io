@@ -1,4 +1,6 @@
 $(document).ready(function(){
+  var url = window.location.href;
+
   var scroll_start = 0;
   $(document).scroll(function() {
     scroll_start = $(this).scrollTop();
@@ -12,7 +14,12 @@ $(document).ready(function(){
     } else {
       $('#navbar').css('border-bottom', '2px solid transparent');
       $('#navbar').css('background-color', 'transparent');
-      $('#navbar').css('color', 'white');
+
+      if (url.includes('index.html') || url.includes('team.html')) {
+        $('#navbar').css('color', 'white');
+      } else {
+        $('#navbar').css('color', 'var(--color0)');
+      }
     }
   });
 });
