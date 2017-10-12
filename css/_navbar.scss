@@ -6,10 +6,11 @@
 	height: 75px;
 	width: 100%;
 	margin: 0;
-	border-bottom: 2px solid var(--color0); // change color on scroll
+	border-bottom: 2px solid transparent; // change to var(--color0) on scroll
 	padding: 0;
-	background-color: white; // change color on scroll
 	line-height: 75px;
+	background-color: transparent; // change to transparent white on scroll
+	color: white; // change to var(--color0) on scroll
   z-index: 1000;
 }
 
@@ -27,17 +28,16 @@
   transform: translateX(-50%);
   font-size: 32px;
   font-family: 'Baumans', sans-serif;
-	color: var(--color0); // change color on scroll
+	color: inherit;
 }
 
 .nav-link {
   float: left;
   margin: 0 25px;
-  // min-width: 150px;
 	display: block;
 	background: transparent;
   font-size: 14px;
-	color: var(--color0); // change color on scroll
+	color: inherit;
 }
 
 // .navbar {
