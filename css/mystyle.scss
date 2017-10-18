@@ -18,6 +18,10 @@ Arrow Down by Antonio Petraglia from the Noun Project
 Arrow Left by Antonio Petraglia from the Noun Project
 */
 
+html, body {
+  overflow-x: hidden;
+}
+
 a.btn {
 	opacity: 0.75;
 
