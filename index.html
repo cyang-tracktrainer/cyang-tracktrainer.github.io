@@ -25,91 +25,45 @@
   </head>
   <body>
 
-	<!-- NAVBAR
+    <!-- NAVBAR
 ================================================== -->
     <div id="navbar" class="navbar">
-      <a class="nav-logo" href="#">Track Trainer</a>
-      <div class="nav-right">
-        <a class="nav-link link" href="team.html">Our Team</a>
-        <a class="nav-link link" href="product.html">For Patients</a>
-        <a class="nav-link link" href="product.html">For Therapists</a>
-      </div>
+      <!-- <a class="nav-logo" href="#">Track Trainer</a> -->
+      <ul class="nav-right">
+        <li><a class="nav-link link" href="#ourdevice">Our Device</a></li>
+        <li><a class="nav-link link" href="#forpatients">For Patients</a></li>
+        <li><a class="nav-link link" href="#fortherapists">For Therapists</a></li>
+        <li><a class="nav-link link" href="#ourteam">Our Team</a></li>
+      </ul>
     </div>
 
-	  <!-- COVER BLOCK
+	  <!-- PAGE 1
 ================================================== -->
-		<div class="cover-container">
-      <!-- not really take charge, more like enjoy -->
-      <h1>Take charge of your recovery.</h1>
-      <p>Rehabilitation can be laborious and frustrating. Our mission is to
-        make it fun<br>and exciting, so that you can enjoy the path to your recuperation.</p>
-      <a href="product.html" class="btn btn-lg btn-product link">OUR STORY ></a>
-		</div>
-
-    <!-- DISPLAY BLOCK
-================================================== -->
-    <div class="display-container">
-      <!--Our Methodology section where we explain TST-->
-      <h1>What is the Track Trainer?</h1>
-      <div class="display-subcontainer vertical-align">
-        <img class="tt-isometric" src="img/product/tt-isometric.png" alt="tt-isometric">
-        <div class="display-info">
-          <ul>
-            <li class="blurb">
-              <p>
-                Stroke recovery as simple as playing a game.
-              </p>
-            </li>
-            <li class="blurb">
-              <p>
-                No more endless repetition of mind-numbing tasks.<br>No more frustration with confusing techniques.<br>And no more breaking the bank.
-              </p>
-            </li>
-            <li class="blurb">
-              <p>
-                The Track Trainer packages the effective Task Specific Training methodology into a game-like device that keeps rehabilitation motivational and exciting.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <div id="page1">
+      <a id="ourdevice" class="smooth"></a>
+      Our Device page content goes here.
     </div>
 
-		<!-- MARKETING BLOCK
+    <!-- PAGE 2
 ================================================== -->
-    <div class="marketing-container">
-      <div class="row">
-        <h1>Why it Works</h1><br>
-        <div class="col-xs-8 col-xs-offset-2">
-          <p>By transforming rehabilitation into a stimulating and customizable game, we’ve brought recovery within reach for all patients.</p>
-        </div>
-        <div class="col-md-4 marketing-blurb">
-        	<img class="muscle-arm" src="img/index/muscle-arm.png" alt="strength">
-          <h4>Simple</h4>
-        	<p>The Track Trainer is a fun, game-like rehabilitation device for hands, arms and shoulders.</p>
-        </div>
-				<div class="col-md-4 marketing-blurb">
-					<img src="img/index/line-graph.png" alt="effectiveness">
-          <h4>Effective</h4>
-					<p>Easily track improvement of patients over the course of therapy by recording lap times.</p>
-				</div>
-				<div class="col-md-4 marketing-blurb">
-					<img src="img/index/low-price.png" alt="affordability">
-          <h4>Affordable</h4>
-					<p>Our simple design makes the Track Trainer one of the most affordable rehab devices in the market.</p>
-				</div>
-			</div>
+    <div id="page2">
+      <a id="forpatients" class="smooth"></a>
+      For Patients page content goes here.
+    </div>
 
-		</div>
-
-		<!-- BLOG BLOCK
+    <!-- PAGE 3
 ================================================== -->
-    <!-- uncomment when medium blog exists -->
-    <!-- <div class="blog-container bg-white color6">
-      <h1>Follow our Medium blog!</h1>
-      <h2><br>We’re excited to continually evolve our product and provide<br>the best possible experience to our patients. Stay in the loop and<br>see what we're up to!</h2>
-      <a href="https://medium.com/@thetracktrainer" class="btn btn-lg btn-blog link bg-white color5">Keep Up with Our Progress&nbsp&nbsp:)</a>
-		</div> -->
+    <div id="page3">
+      <a id="fortherapists" class="smooth"></a>
+      For Therapists page content goes here.
+    </div>
+
+    <!-- PAGE 4
+================================================== -->
+    <div id="page4">
+      <a id="ourteam" class="smooth"></a>
+      Our Team page content goes here.
+    </div>
 
     <!-- FOOTER BLOCK
 ================================================== -->
@@ -119,5 +73,17 @@
       <a class="btn-footer link" href="team.html">Team</a>
       <a class="btn-footer link" href="https://medium.com/@thetracktrainer">Medium</a>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+    <script>
+    $('.smooth').on('click', function() {
+        $.smoothScroll({
+            scrollElement: $('body'),
+            scrollTarget: '#' + this.id
+        });
+
+        return false;
+    });
+    </script>
   </body>
 </html>
