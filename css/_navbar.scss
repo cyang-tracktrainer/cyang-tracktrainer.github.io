@@ -3,14 +3,18 @@
 .navbar {
 	position: fixed;
 	top: 0;
+	left: 0;
 	height: 75px;
 	width: 100%;
 	margin: 0;
-	border-bottom: 2px solid transparent; // change to var(--color0) on scroll
+	border-bottom: 2px solid var(--color0);
+	// border-bottom: 2px solid transparent; // change to var(--color0) on scroll
 	padding: 0;
 	line-height: 75px;
-	background-color: transparent; // change to transparent white on scroll
-	color: white; // change to var(--color0) on scroll
+	background-color: white;
+	color: var(--color0);
+	// background-color: transparent; // change to transparent white on scroll
+	// color: white; // change to var(--color0) on scroll
   z-index: 1000;
 
 	&.product-navbar {
@@ -31,9 +35,9 @@
 }
 
 .nav-link {
-  float: left;
+  // float: left;
   margin: 0 25px;
-	display: block;
+	// display: block;
 	background: transparent;
   font-size: 14px;
 	color: inherit;
