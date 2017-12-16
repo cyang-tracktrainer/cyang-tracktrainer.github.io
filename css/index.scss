@@ -167,8 +167,36 @@
 /* PAGE 4
 ================================================= */
 #page4 {
-  background-color: purple;
-  min-height: 1000px;
-  padding-top: 50px;
-  font-size: 36px;
+  .team {
+  	min-height: 540px;
+    margin: 0;
+  	background-image: url("../img/team/team.png");
+    background-position: center;
+    background-size: auto 950px;
+    background-repeat: no-repeat;
+  	color: white;
+
+  	h1 {
+  		padding: 150px 0 30px 0;
+  		color: inherit;
+  	}
+
+  	.team-inner {
+  		padding: 0 40px;
+  		display: flex;
+  		flex-direction: row;
+  		justify-content: center;
+  		align-items: flex-start;
+
+  		.team-blurb {
+  			width: 600px;
+  			margin: 0 40px;
+  		}
+  	}
+
+  	p {
+  		// text-align: left;
+  		font-size: 20px;
+  	}
+  }
 }
