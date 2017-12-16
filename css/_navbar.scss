@@ -16,14 +16,6 @@
 	// background-color: transparent; // change to transparent white on scroll
 	// color: white; // change to var(--color0) on scroll
   z-index: 1000;
-
-	&.product-navbar {
-		color: var(--color0);
-	}
-}
-
-.nav-right {
-	float: right;
 }
 
 .nav-logo {
@@ -34,10 +26,14 @@
 	color: inherit;
 }
 
+.nav {
+	float: right;
+}
+
 .nav-link {
-  // float: left;
+  float: left;
   margin: 0 25px;
-	// display: block;
+	display: block;
 	background: transparent;
   font-size: 14px;
 	color: inherit;

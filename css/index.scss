@@ -112,11 +112,11 @@
 ================================================= */
 #page2 {
   max-width: 1100px;
-  padding: 50px 0 65px 0;
   border-top: 2px solid var(--color1);
 
-  ul {
+  .display {
     width: 700px;
+    padding: 50px 0 60px 0;
     margin: auto;
     list-style: none;
 
@@ -136,10 +136,8 @@
 #page3 {
   .infographic {
     max-width: 1100px;
-    height: auto;
-    margin: 25px auto;
   	border-top: 2px solid var(--color1);
-    padding: 50px 0;
+    padding: 50px 0 70px 0;
 
     .infographic-inner {
       margin-top: 50px;
