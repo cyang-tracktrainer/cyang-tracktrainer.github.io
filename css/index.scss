@@ -50,18 +50,15 @@
         width: 400px;
       }
 
-      ul {
-        width: 480px;
-        margin-left: 70px;
-        list-style: none;
+      .display-blurb {
+        width: 530px;
+        padding-left: 50px;
 
-        .display-blurb {
-          margin: 14px 0;
-
-          p {
-            text-align: left;
-          }
+        p {
+          padding: 7px 0;
+          text-align: left;
         }
+
       }
     }
   }
@@ -114,19 +111,59 @@
 /* PAGE 2
 ================================================= */
 #page2 {
-  background-color: blue;
-  min-height: 1000px;
-  padding-top: 50px;
-  font-size: 36px;
+  max-width: 1100px;
+  padding: 50px 0 65px 0;
+  border-top: 2px solid var(--color1);
+
+  ul {
+    width: 700px;
+    margin: auto;
+    list-style: none;
+
+    .display-blurb {
+      margin: 14px 0;
+
+      p {
+        font-size: 24px;
+        text-align: left;
+      }
+    }
+  }
 }
 
 /* PAGE 3
 ================================================= */
 #page3 {
-  background-color: green;
-  min-height: 1000px;
-  padding-top: 50px;
-  font-size: 36px;
+  .infographic {
+    max-width: 1100px;
+    height: auto;
+    margin: 25px auto;
+  	border-top: 2px solid var(--color1);
+    padding: 50px 0;
+
+    .infographic-inner {
+      margin-top: 50px;
+      display: flex;
+  		flex-direction: row;
+  		justify-content: center;
+  		align-items: center;
+
+      .infographic-block {
+        margin: 0 50px;
+      }
+
+      img {
+        width: 50px;
+        height: auto;
+        margin: 0;
+      }
+
+      p {
+        padding-top: 10px;
+        font-size: 15px;
+      }
+    }
+  }
 }
 
 /* PAGE 4
