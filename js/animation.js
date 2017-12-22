@@ -1,6 +1,5 @@
 $(document).ready(function(){
   var url = window.location.href;
-
   $("html,body").animate({ scrollTop: 0 });
   $(document).scroll(function() {
     if($(document).scrollTop() < 100) {
