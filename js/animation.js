@@ -1,25 +1,14 @@
-// $(document).ready(function(){
-//   var url = window.location.href;
-//
-//   var scroll_start = 0;
-//   $(document).scroll(function() {
-//     scroll_start = $(this).scrollTop();
-//     if (scroll_start > 100) {
-//       // $('#navbar').velocity({ background-color: rgba(255, 255, 255, 0.95) }, 1000);
-//       // $('#navbar').velocity({ color: var(--color0) }, 1000);
-//
-//       $('#navbar').css('border-bottom', '2px solid var(--color0)');
-//       $('#navbar').css('background-color', 'rgba(255, 255, 255, 0.95)');
-//       $('#navbar').css('color', 'var(--color0)');
-//     } else {
-//       $('#navbar').css('border-bottom', '2px solid transparent');
-//       $('#navbar').css('background-color', 'transparent');
-//
-//       if (url.includes('index.html') || url.includes('team.html')) {
-//         $('#navbar').css('color', 'white');
-//       } else {
-//         $('#navbar').css('color', 'var(--color0)');
-//       }
-//     }
-//   });
-// });
+$(document).ready(function(){
+  var url = window.location.href;
+
+  $("html,body").animate({ scrollTop: 0 });
+  $(document).scroll(function() {
+    if($(document).scrollTop() < 100) {
+      $('#navbar').stop().fadeOut(300);
+      $('#navbar-clear').stop().fadeIn(300);
+    } else {
+      $('#navbar').stop().fadeIn(300);
+      $('#navbar-clear').stop().fadeOut(300);
+    }
+  });
+});
