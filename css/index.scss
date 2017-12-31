@@ -158,67 +158,73 @@ a.btn {
 /* PAGE 2
 ================================================= */
 #page2 {
-  // max-width: 1100px;
-  // border-top: 2px solid var(--color1);
-  background-color: white;
 
-  .display {
-    width: 700px;
-    padding: 50px 0 60px 0;
-    margin: auto;
-    list-style: none;
-
-    .display-flex-child {
-      margin: 14px 0;
-
-      p {
-        font-size: 24px;
-        text-align: left;
-      }
-    }
-  }
 }
 
 /* PAGE 3
 ================================================= */
 #page3 {
-  .how-it-works {
-    max-width: 1100px;
-  	border-top: 2px solid var(--color1);
-    padding: 50px 0 70px 0;
-
-    .how-it-works-flex {
-      margin-top: 50px;
-      display: flex;
-  		flex-direction: row;
-  		justify-content: center;
-  		align-items: center;
-
-      .how-it-works-block {
-        margin: 0 50px;
-      }
-
-      img {
-        width: 50px;
-        height: auto;
-        margin: 0;
-      }
-
-      p {
-        padding-top: 10px;
-        font-size: 15px;
-      }
-    }
-  }
+  // max-width: 1100px;
+  // border-top: 2px solid var(--color1);
+  // background-color: white;
+  //
+  // .display {
+  //   width: 700px;
+  //   padding: 50px 0 60px 0;
+  //   margin: auto;
+  //   list-style: none;
+  //
+  //   .display-flex-child {
+  //     margin: 14px 0;
+  //
+  //     p {
+  //       font-size: 24px;
+  //       text-align: left;
+  //     }
+  //   }
+  // }
 }
 
 /* PAGE 4
 ================================================= */
 #page4 {
+  // .how-it-works {
+  //   max-width: 1100px;
+  // 	border-top: 2px solid var(--color1);
+  //   padding: 50px 0 70px 0;
+  //
+  //   .how-it-works-flex {
+  //     margin-top: 50px;
+  //     display: flex;
+  // 		flex-direction: row;
+  // 		justify-content: center;
+  // 		align-items: center;
+  //
+  //     .how-it-works-block {
+  //       margin: 0 50px;
+  //     }
+  //
+  //     img {
+  //       width: 50px;
+  //       height: auto;
+  //       margin: 0;
+  //     }
+  //
+  //     p {
+  //       padding-top: 10px;
+  //       font-size: 15px;
+  //     }
+  //   }
+  // }
+}
+
+/* PAGE 5
+================================================= */
+#page5 {
   .why-were-here {
   	min-height: 500px;
     margin: 0;
-  	background-image: url("../img/page4/team.png");
+  	background-image: url("../img/page5/team.png");
     background-position: center;
     background-size: auto 950px;
     background-repeat: no-repeat;
