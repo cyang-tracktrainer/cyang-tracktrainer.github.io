@@ -158,7 +158,60 @@ a.btn {
 /* PAGE 2
 ================================================= */
 #page2 {
+  .how-it-works {
+    position: relative;
 
+    > h1 {
+      position: absolute;
+      top: 50px;
+      left: 25%;
+      transform: translateX(-50%);
+    }
+
+    .how-it-works-flex {
+      clear: both;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      .how-it-works-flex-innerflex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+          display: block;
+          height: 55px;
+          width: 55px;
+          line-height: 50px;
+          margin: 30px;
+          border: solid 2px var(--color0);
+          border-radius: 50%;
+          padding-left: 2px;
+        }
+
+        p {
+          width: 400px;
+          text-align: left;
+        }
+      }
+
+      img {
+        max-width: 50%;
+      }
+    }
+  }
+
+  .product-video {
+    background-color: var(--color1);
+    padding: 50px 0;
+
+    h2 {
+      margin-bottom: 30px; 
+    }
+  }
 }
 
 /* PAGE 3
