@@ -222,17 +222,19 @@ a.btn {
 /* PAGE 3
 ================================================= */
 #page3 {
-  padding-bottom: 40px;
+  padding-top: 50px;
+  margin-bottom: -10px;
 
   .for-patients {
     .for-patients-flex {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      align-items: center;
-      padding-bottom: 20px;
+      align-items: flex-start;
+      padding-bottom: 70px;
 
       h3 {
+        margin-top: 50px;
         margin-bottom: 10px;
       }
 
@@ -247,8 +249,7 @@ a.btn {
 
       img {
         width: 50vw;
-        height: 500px;
-        padding: 20px;
+        padding: 0 50px;
       }
     }
   }
