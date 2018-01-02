@@ -258,6 +258,40 @@ a.btn {
 /* PAGE 4
 ================================================= */
 #page4 {
+  padding-top: 50px;
+  margin-bottom: -10px;
+  background-color: rgba(242, 248, 255, 1);
+
+  .for-therapists {
+    .for-therapists-flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      padding-bottom: 70px;
+
+      h3 {
+        margin-top: 50px;
+        margin-bottom: 10px;
+      }
+
+      h6 {
+        margin: 10px 0 3px 0;
+      }
+
+      p {
+        padding: 0 60px;
+        text-align: left;
+      }
+
+      img {
+        width: 50vw;
+        height: auto;
+        padding: 0 50px;
+      }
+    }
+  }
+
   // .how-it-works {
   //   max-width: 1100px;
   // 	border-top: 2px solid var(--color1);
