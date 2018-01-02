@@ -222,16 +222,16 @@ a.btn {
 /* PAGE 3
 ================================================= */
 #page3 {
-  padding-top: 50px;
-  margin-bottom: -10px;
+  padding-bottom: 20px;
 
   .for-patients {
+    padding: 50px 0 30px 0;
+
     .for-patients-flex {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: flex-start;
-      padding-bottom: 70px;
 
       h3 {
         margin-top: 50px;
@@ -258,17 +258,17 @@ a.btn {
 /* PAGE 4
 ================================================= */
 #page4 {
-  padding-top: 50px;
-  margin-bottom: -10px;
+  padding-bottom: 20px;
   background-color: rgba(242, 248, 255, 1);
 
   .for-therapists {
+    padding: 50px 0 30px 0;
+
     .for-therapists-flex {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: flex-start;
-      padding-bottom: 70px;
 
       h3 {
         margin-top: 50px;
@@ -286,7 +286,6 @@ a.btn {
 
       img {
         width: 50vw;
-        height: auto;
         padding: 0 50px;
       }
     }
@@ -325,6 +324,54 @@ a.btn {
 /* PAGE 5
 ================================================= */
 #page5 {
+  .meet-the-founders {
+    padding: 50px 0;
+
+    .meet-the-founders-flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 30px;
+
+      .meet-the-founders-flex-child {
+        img {
+          height: 120px;
+          margin-bottom: 15px;
+          border-radius: 50%;
+        }
+
+        h4 {
+          margin-bottom: 5px;
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .bio {
+      margin: 20px 100px;
+      background-color: var(--color1);
+      text-align: left;
+
+      &.maximized {
+        display: block;
+      }
+
+      &.minimized {
+        display: none;
+      }
+    }
+
+    .bio-content {
+      display: none;
+      padding: 25px;
+      text-align: left;
+    }
+  }
+
   .why-were-here {
   	min-height: 500px;
     margin: 0;
