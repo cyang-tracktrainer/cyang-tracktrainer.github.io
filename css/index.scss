@@ -84,40 +84,36 @@ a.btn {
     }
   }
 
-  .tt-main {
+  .tt-main-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding: 100px 0;
     background-color: rgba(242, 248, 255, 1); /* For browsers that do not support gradients */
     // background: linear-gradient(to bottom, rgba(230, 240, 255, 1), rgba(230, 240, 255, 0));
 
-    .tt-main-flex {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      width: 1200px;
+    .tt-main-flex-child {
+      width: 500px;
+      margin: 0;
+      text-align: left;
 
-      .tt-main-flex-child {
-        width: 550px;
-        padding: 0 25px;
-        text-align: left;
-
-        .btn-tt-main {
-          margin-top: 10px;
-          padding: 8px 16px;
-          font-size: 16px;
-          border: 3px solid;
-        }
-
-        h1, h4, p {
-          margin: 10px 0;
-          text-align: left;
-        }
-
-        img {
-          width: 500px;
-          height: auto;
-        }
+      .btn-tt-main {
+        margin-top: 10px;
+        padding: 8px 16px;
+        font-size: 16px;
+        border: 3px solid;
       }
+
+      h1, h4, p {
+        margin: 10px 0;
+        text-align: left;
+      }
+    }
+
+    img {
+      width: 500px;
+      margin-left: 50px;
     }
   }
 }
@@ -125,42 +121,38 @@ a.btn {
 /* PAGE 2
 ================================================= */
 #page2 {
-  .how-it-works {
-    position: relative;
+  .how-it-works-flex {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-    .how-it-works-flex {
-      clear: both;
+    .how-it-works-flex-innerflex {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
 
-      .how-it-works-flex-innerflex {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-
-        h2 {
-          display: block;
-          height: 55px;
-          width: 55px;
-          line-height: 50px;
-          margin: 30px;
-          border: solid 2px var(--color0);
-          border-radius: 50%;
-          padding-left: 2px;
-        }
-
-        p {
-          width: 400px;
-          text-align: left;
-        }
+      h2 {
+        display: block;
+        height: 55px;
+        width: 55px;
+        line-height: 50px;
+        margin: 30px;
+        border: solid 2px var(--color0);
+        border-radius: 50%;
+        padding-left: 2px;
       }
 
-      img {
-        max-width: 50%;
+      p {
+        width: 400px;
+        text-align: left;
       }
+    }
+
+    img {
+      max-width: 50%;
     }
   }
 
@@ -184,33 +176,30 @@ a.btn {
 #page3 {
   padding-bottom: 20px;
 
-  .for-patients {
+  .for-patients-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
     padding: 50px 0 30px 0;
 
-    .for-patients-flex {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: flex-start;
+    h3 {
+      margin-top: 50px;
+      margin-bottom: 10px;
+    }
 
-      h3 {
-        margin-top: 50px;
-        margin-bottom: 10px;
-      }
+    h6 {
+      margin: 10px 0 3px 0;
+    }
 
-      h6 {
-        margin: 10px 0 3px 0;
-      }
+    p {
+      padding: 0 60px;
+      text-align: left;
+    }
 
-      p {
-        padding: 0 60px;
-        text-align: left;
-      }
-
-      img {
-        width: 50vw;
-        padding: 0 50px;
-      }
+    img {
+      width: 50vw;
+      padding: 0 50px;
     }
   }
 }
@@ -221,33 +210,30 @@ a.btn {
   padding-bottom: 20px;
   background-color: rgba(242, 248, 255, 1);
 
-  .for-therapists {
+  .for-therapists-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
     padding: 50px 0 30px 0;
 
-    .for-therapists-flex {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: flex-start;
+    h3 {
+      margin-top: 50px;
+      margin-bottom: 10px;
+    }
 
-      h3 {
-        margin-top: 50px;
-        margin-bottom: 10px;
-      }
+    h6 {
+      margin: 10px 0 3px 0;
+    }
 
-      h6 {
-        margin: 10px 0 3px 0;
-      }
+    p {
+      padding: 0 60px;
+      text-align: left;
+    }
 
-      p {
-        padding: 0 60px;
-        text-align: left;
-      }
-
-      img {
-        width: 50vw;
-        padding: 0 50px;
-      }
+    img {
+      width: 50vw;
+      padding: 0 50px;
     }
   }
 }
