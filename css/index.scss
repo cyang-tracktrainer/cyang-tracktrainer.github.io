@@ -161,13 +161,6 @@ a.btn {
   .how-it-works {
     position: relative;
 
-    > h1 {
-      position: absolute;
-      top: 50px;
-      left: 25%;
-      transform: translateX(-50%);
-    }
-
     .how-it-works-flex {
       clear: both;
       display: flex;
